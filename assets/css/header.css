@@ -1,0 +1,150 @@
+header{
+    padding: 2rem 10%;
+}
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    
+}
+.logo_header{
+    width: 210px;
+    
+}
+.contenedor_buscar{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    width: 70%;
+    height: 2rem; 
+}
+
+.boton_buscar{
+    width: 100%;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    margin-right: 35%;
+    padding: 1rem;
+}
+.icono_buscar {
+    position: absolute;
+    top: 50%;
+    right: 38%;
+    transform: translateY(-50%);
+}
+
+.contenedor_login{ 
+    width: 120px;
+    height: 2rem;
+}
+.boton_login{
+    color: #2A7AE4;
+    width: 100%;
+    height: 100%;
+    border-color: #2A7AE4;
+    background-color: #FFFFFF;
+    transition: all 0.2s ease-in-out;
+  border-radius: 5px;  
+}
+.boton_login:hover{
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+.boton_lupa{
+    display: none;
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .cabecera{
+        padding: 2rem 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;   
+    }
+    .logo_header{
+        width: 210px;
+        
+    }
+    .contenedor_buscar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: left;
+        width: 70%;
+        height: 2rem; 
+        
+    }
+    
+    .boton_buscar{
+        width: 100%;
+        background-color: #F5F5F5;
+        border: none;
+        outline: none;
+        border-radius: 1rem;
+        margin-right: 35%;
+    }
+    .contenedor_login{
+        
+        width: 120px;
+        height: 2rem;
+        
+    }
+    .boton_login{
+        color: #2A7AE4;
+        width: 100%;
+        height: 100%;
+        border-color: #2A7AE4;     
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px){
+    .cabecera{
+        padding: 2rem 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;  
+          
+    }
+    .logo_header{
+        width: 12rem;
+        height: 100%;
+    }
+    .logo{
+        width: 100%; 
+    }
+    .contenedor_buscar{
+        display: none; 
+    }
+    
+    .contenedor_login{
+        display: flex;
+        width: 120px;
+        height: 2rem;
+        margin: 0 1rem;
+    }
+    .boton_login{
+        color: #2A7AE4;
+        width: 100%;
+        height: 100%;
+        border-color: #2A7AE4;
+        padding: 0 1rem;    
+    }
+    .boton_lupa{
+        display: block;
+        margin-left: 0.5rem;
+        border-radius: 100%;
+        background-color:#F5F5F5;
+        padding: 0.5rem;
+        border: none;
+    }
+}

@@ -1,0 +1,47 @@
+.portada_container {
+    background: url(../img/portada.png) no-repeat center top -5vh fixed;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center bottom calc(5vh - 100px);
+}
+.titulo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    height: 85%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 2rem 10%;
+    
+}
+.titulo_portada {
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.subtitulo_portada{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.boton_portada{
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    
+}
