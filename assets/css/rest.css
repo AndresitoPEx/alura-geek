@@ -26,6 +26,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-color: #F5F5F5;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Play', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Tajawal', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 ol, ul {
 	list-style: none;

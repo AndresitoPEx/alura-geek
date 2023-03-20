@@ -1,34 +1,46 @@
-.productos_section{   
+.productos_section{
     margin-bottom: 100px;
-    
-}
-.star-wars-section, .consolas-section, .diversos-section{
     padding: 2rem 5%;
-    
 }
+/* .star-wars-section, .consolas-section, .diversos-section{
+
+
+} */
 .titulo_section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 2rem 0;
+
+}
+.titulo_section>h2{
+    font-size: 1.5rem;
     
+}
+.titulo_section>a{
+    text-decoration: none;
+}
+.titulo_section>a>img{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
 }
 
 .product-container {
     display: flex;
-   
+
     flex-wrap: wrap;
 
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .product {
     width: 200px;
     margin: 10px;
     text-align: start;
-    
+
 }
 
 .product img {
