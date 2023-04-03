@@ -1,0 +1,16 @@
+{
+    "name": "alurageek",
+    "version": "1.0.0",
+    "description": "My eCommerce website",
+    "main": "index.js",
+    "scripts": {
+      "server": "json-server --watch db.json"
+    },
+    "keywords": [
+      "ecommerce",
+      "json-server"
+    ],
+    "author": "Andres Romo",
+    "license": "MIT"
+  }
+  

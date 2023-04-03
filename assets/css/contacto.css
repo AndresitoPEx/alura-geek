@@ -2,6 +2,11 @@
     background-color: #EAF2FD;
     padding: 50px 0;
     padding: 2rem 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
@@ -10,7 +15,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .formulario-left {
@@ -19,7 +23,6 @@
     align-items: center;
     flex-grow: 0.5;
     display: flex;
-    
 }
 
 .formulario-left img {
@@ -36,7 +39,6 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    
 }
 
 ul li {
@@ -48,48 +50,66 @@ ul li a {
     text-decoration: none;
     color: #333;
     font-size: 16px;
-    
 }
 
 .formulario-right {
     width: 50%;
     flex-grow: 0.5;
     margin-top: 20px;
-  
 }
 
 .formulario-right h3 {
-    font-size:25px;
+    font-size: 25px;
     color: #333;
-    
     margin: 0;
     margin-bottom: 20px;
 }
 
 .form-group {
     margin-bottom: 20px;
+    position: relative;
 }
 
 .form-group label {
-    display: block;
+    position: absolute;
     margin-bottom: 5px;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-size: 1.3rem;
+    color: lightgrey;
+    transition: all 0.3s ease;
+    pointer-events: none;
 }
-
-.form-group input,
-.form-group textarea {
+.form_name{
+    height: 2rem;
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 5px;
-    font-size: 16px;
-    outline-style: none;
+    outline-style: none;   
 }
 
-.form-group textarea {
-    height: 100px;
+.form_message {
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    outline-style: none;   
 }
 
-button[type="submit"] {
+.form_name:focus+label,
+.form_message:focus+label {
+    top: -1px;
+    left: 5px;
+    font-size: 14px;
+    color: #2A7AE4;
+}
+
+
+.boton__contacto {
     background-color: #2A7AE4;
     color: #fff;
     border: none;
@@ -100,16 +120,16 @@ button[type="submit"] {
     transition: all 0.3s ease;
 }
 
-button[type="submit"]:hover {
+.boton__contacto:hover {
     background-color: #fff;
     color: #2A7AE4;
     border: 1px solid #2A7AE4;
-
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .formulario {
         padding: 30px 2rem;
-        
+
     }
 
     .formulario-left {
@@ -131,10 +151,12 @@ button[type="submit"]:hover {
     }
 
 }
-@media only screen and (min-width: 0px) and (max-width: 768px){
-    .formulario{
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .formulario {
         padding: 30px 0;
     }
+
     .container {
         display: flex;
         justify-content: center;
@@ -166,7 +188,8 @@ button[type="submit"]:hover {
         margin-top: 30px;
         width: 90%;
     }
-    .form-group{
+
+    .form-group {
         width: 100%;
         display: flex;
         justify-content: start;

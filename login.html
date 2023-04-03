@@ -1,78 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/rest.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/contacto.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/login.css">
-    <title>Login</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/contacto.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/login.css">
+  <title>Login</title>
 </head>
+
 <body>
-    <header class="cabecera">
-        <div class="logo_header">
-          <a href="index.html"><img class="logo" src="assets/img/logo.png" alt=""></a>
-            
-        </div>
-        <div class="contenedor_buscar">
-            <input class="boton_buscar" type="search" placeholder="¿Que desea buscar?">
-            <img class="icono_buscar" src="assets/img/lupa.png" alt="Icono de búsqueda">
-        </div>
-        <div class="contenedor_login">
-            <input id="boton-login" class="boton_login" type="button" value="Login">
-            <input class="boton_lupa" type="image" src="assets/img/lupa.png" alt="boton de busqueda">
-        </div>
-    </header>
+  <header class="cabecera">
+    <div class="logo_header">
+      <a href="index.html"><img class="logo" src="assets/img/logo.png" alt=""></a>
+
+    </div>
+    <div class="contenedor_buscar">
+      <input class="boton_buscar" type="search" placeholder="¿Que desea buscar?">
+      <img class="icono_buscar" src="assets/img/lupa.png" alt="Icono de búsqueda">
+    </div>
+    <div class="contenedor_login">
+
+      <input id="boton_login" class="boton_login" type="button" value="Login">
+      <input class="boton_lupa" type="image" src="assets/img/lupa.png" alt="Realizar búsqueda">
+
+    </div>
+  </header>
     <section class="section_login">
-        <div class="container_login">
-            <form class="form_container_login">
-                <h1 class="titulo_login">Iniciar Sesión</h1>
-                <div class="form_login">
-                    <label for="username">Escriba su correo electronico</label>
-                    <input type="text" id="username" name="username" required>
-        
-                    <label for="password">Escriba su contraseña</label>
-                    <input type="password" id="password" name="password" required>
-               </div>
-                <input type="submit" value="Login">
-            </form>
-        </div>
+      <div class="container_login">
+        <h2 class="titulo_login">Iniciar sesión</h2>
+        <form class="form_container_login">
+          <fieldset class="form_login">
+
+            <div class="input_container">
+              <input type="email" id="correo" name="correo" class="input__inicio" placeholder=" " required>
+              <label for="correo" class="input__label">Correo electrónico</label>
+            </div>
+
+            <div class="input_container">
+              <input type="password" id="contrasena" name="contrasena" class="input__inicio" placeholder=" " required>
+              <label for="contrasena" class="input__label">Contraseña</label>
+            </div>
+
+            <button type="submit" class="btn btn__center">Ingresar</button> 
+
+          </fieldset>
+        </form>
+      </div>
     </section>
+
     <section class="formulario">
-        <div class="container">
-          <div class="formulario-left">
-            <img src="assets/img/logo.png" alt="Logo">
-            <ul>
-              <li><a href="#">Quienes somos</a></li>
-              <li><a href="#">Politica de privacidad</a></li>
-              <li><a href="#">Programa de fidelidad</a></li>
-              <li><a href="#">Nuestras tiendas</a></li>
-              <li><a href="#">Quiero ser franquiciado</a></li>
-              <li><a href="#">Anuncie aquí</a></li>
-            </ul>
-          </div>
-          <div class="formulario-right">
-            <h3>Hable con nosotros</h3>
-            <form>
-              <div class="form-group">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" required></textarea>
-              </div>
-              <button type="submit">Enviar</button>
-            </form>
-          </div>
+      <div class="container">
+        <div class="formulario-left">
+          <img src="assets/img/logo.png" alt="Logo">
+          <ul>
+            <li><a href="#">Quienes somos</a></li>
+            <li><a href="#">Politica de privacidad</a></li>
+            <li><a href="#">Programa de fidelidad</a></li>
+            <li><a href="#">Nuestras tiendas</a></li>
+            <li><a href="#">Quiero ser franquiciado</a></li>
+            <li><a href="#">Anuncie aquí</a></li>
+          </ul>
         </div>
-      </section>
-      <footer class="footer">
-        <p>&copy; 2023 Todos los derechos reservados. Sitio creado por <a href="https://andresitopex.github.io/portafolio_challengue/" target="_blank">-AR-</a></p>
-      </footer>
+        <div class="formulario-right">
+          <h3>Hable con nosotros</h3>
+          <form>
+            <div class="form-group">
+              <input class="form_name" type="text" id="name" name="name" required>
+              <label for="name">Nombre:</label>
+            </div>
+            <div class="form-group">
+              <textarea class="form_message" id="message" name="message" required></textarea>
+              <label for="message">Mensaje:</label>
+            </div>
+            <button class="boton__contacto" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
     
+  <footer class="footer">
+    <p>&copy; 2023 Todos los derechos reservados. Sitio creado por <a
+        href="https://andresitopex.github.io/portafolio_challengue/" target="_blank">-AR-</a></p>
+  </footer>
+  <script src="./assets/js/login_page.js"></script>
 </body>
+
 </html>

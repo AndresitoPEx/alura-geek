@@ -1,10 +1,15 @@
 .footer{
     background-color: #ffffff;
     color: black;
-    padding: 2rem 5%;
+    padding: 1rem 5%;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .footer a{
     color: #2A7AE4;

@@ -16,7 +16,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&family=Play&family=Roboto+Condensed:wght@300&family=Tajawal:wght@500&family=Ubuntu:wght@300;400;500&display=swap"
     rel="stylesheet">
-    
+
   <title>Alura Geek</title>
 </head>
 
@@ -48,7 +48,7 @@
         <h2>Star Wars</h2>
         <a href="productos.html">Ver todo <img src="assets/img/right-arrow.png" alt=""></a>
       </div>
-      <div class="product-container">
+      <div class="product-container" data-producto>
         <div class="product">
           <img src="assets/img/productos/product1.png" alt="Product 1">
           <h3>Product 1</h3>
@@ -193,14 +193,14 @@
         <h3>Hable con nosotros</h3>
         <form>
           <div class="form-group">
+            <input class="form_name" type="text" id="name" name="name" required>
             <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
           </div>
           <div class="form-group">
+            <textarea class="form_message" id="message" name="message" required></textarea>
             <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" required></textarea>
           </div>
-          <button type="submit">Enviar</button>
+          <button class="boton__contacto" type="submit">Enviar</button>
         </form>
       </div>
     </div>

@@ -29,22 +29,22 @@
     font-weight: bold;
   }
   
-  .form_add_product {
+  .form__producto {
     padding: 30px;
     border-radius: 10px;
     max-width: 400px;
     width: 100%;
   }
   
-  .form_add_product>label {
+  .form__producto>label {
     display: block;
     margin-bottom: 10px;
     
   }
   
-  .form_add_product>input, 
-  .form_add_product>select, 
-  .form_add_product>textarea {
+  .form__producto>input, 
+  .form__producto>select, 
+  .form__producto>textarea {
     display: block;
     width: 100%;
     padding: 10px;
@@ -55,11 +55,11 @@
     font-size: 16px;
   }
   
-  .form_add_product>textarea {
+  .form__producto>textarea {
     resize: vertical;
   }
   
-  .form_container_add_product>input[type="submit"] {
+  .add__producto{
     background-color: #2A7AE4;
     color: #FFFFFF;
     border: none;
@@ -71,7 +71,7 @@
     width: 25%;
   }
   
-  .form_container_add_product>input[type="submit"]:hover {
+  .add__producto:hover {
     background-color: #1A558E;
   }
   

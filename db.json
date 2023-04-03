@@ -1,0 +1,171 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Casco imperial",
+      "price": 10.99,
+      "description": "Articulo Star Wars",
+      "image": "https://i.postimg.cc/yYdhmLww/product1.png"
+    },
+    {
+      "id": 2,
+      "name": "Casco Darth Vader",
+      "price": 24.99,
+      "description": "Articulo Star Wars",
+      "image": "https://i.postimg.cc/jSnz9Lqc/product2.png"
+    },
+    {
+      "id": 3,
+      "name": "Yoda",
+      "price": 49.99,
+      "description": "Muñeco de Yoda",
+      "image": "https://i.postimg.cc/BZNcPrwT/product3.png"
+    },
+    {
+      "id": 4,
+      "name": "Soldado Imperial",
+      "price": 49.99,
+      "description": "Muñeco de soldado imperial",
+      "image": "https://i.postimg.cc/vHNr3WyD/product4.png"
+    },
+    {
+      "id": 5,
+      "name": "Otro Yoda",
+      "price": 49.99,
+      "description": "Muñeco de Yoda 2",
+      "image": "https://i.postimg.cc/d08GspyT/product5.png"
+    },
+    {
+      "id": 6,
+      "name": "Kylo Rent",
+      "price": 49.99,
+      "description": "Muñeco de Kylo Rent",
+      "image": "https://i.postimg.cc/d0M8KwLY/product6.png"
+    },
+    {
+      "id": 7,
+      "name": "Mando de play station 5",
+      "price": 49.99,
+      "description": "Mando de play station 5",
+      "image": "https://i.postimg.cc/HnWwPzj8/product7.png"
+    },
+    {
+      "id": 8,
+      "name": "Play Station 5",
+      "price": 49.99,
+      "description": "Consola de play station 5",
+      "image": "https://i.postimg.cc/W38rrZSN/product8.png"
+    },
+    {
+      "id": 9,
+      "name": "Nintendo 64",
+      "price": 49.99,
+      "description": "Consola de nintendo 64  ",
+      "image": "https://i.postimg.cc/PJqDMqFm/product9.png"
+    },
+    {
+      "id": 10,
+      "name": "Mandos de Nintendo Switch",
+      "price": 49.99,
+      "description": "Mando de nintendo switch pro",
+      "image": "https://i.postimg.cc/QN61dpHS/product10.png"
+    },
+    {
+      "id": 11,
+      "name": "Consola de juegos",
+      "price": 49.99,
+      "description": "Consola de juegos de 8 bits",
+      "image": "https://i.postimg.cc/rFKW0K4T/product11.png"
+    },
+    {
+      "id": 12,
+      "name": "GameBoy",
+      "price": 49.99,
+      "description": "GameBoy de color rojo",
+      "image": "https://i.postimg.cc/NfSX1B8H/product12.png"
+    },
+    {
+      "id": 13,
+      "name": "Atari 2600",
+      "price": 49.99,
+      "description": "Logo de atari 2600",
+      "image": "https://i.postimg.cc/q7XCVKPs/product13.png"
+    },
+    {
+      "id": 14,
+      "name": "Nintendo Switch",
+      "price": 49.99,
+      "description": "Mando de nintendo switch",
+      "image": "https://i.postimg.cc/VktCgp4H/product14.png"
+    },
+    {
+      "id": 15,
+      "name": "Sonic",
+      "price": 49.99,
+      "description": "Muñeco de Sonic",
+      "image": "https://i.postimg.cc/8CVr040k/product15.png"
+    },
+    {
+      "id": 16,
+      "name": "Despertador",
+      "price": 49.99,
+      "description": "Radio despertador",
+      "image": "https://i.postimg.cc/C1hnF10W/product16.png"
+    },
+    {
+      "id": 17,
+      "name": "VR lens",
+      "price": 49.99,
+      "description": "Lentes de realidad virtual",
+      "image": "https://i.postimg.cc/MT9MXSKX/product17.png"
+    },
+    {
+      "id": 18,
+      "name": "Pikachu",
+      "price": 49.99,
+      "description": "Muñeco de Pikachu",
+      "image": "https://i.postimg.cc/MHXcQFv5/product18.png"
+    },
+    {
+      "name": "Ele",
+      "price": "12",
+      "description": "cabeza de ele",
+      "image": "https://i.postimg.cc/NGVdGv3F/product19.png",
+      "id": 19
+    },
+    {
+      "name": "Gorra",
+      "price": "12.99",
+      "description": "Gorra de lana",
+      "image": "https://i.postimg.cc/2yPG0nQh/product20.png",
+      "id": 20
+    },
+    {
+      "name": "Llavero",
+      "price": "20.15",
+      "description": "Llavero de Link",
+      "image": "https://i.postimg.cc/kXbfBhCc/product21.png",
+      "id": 21
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "email": "juan@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": "María Gómez",
+      "email": "maria@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "name": "Pedro García",
+      "email": "pedro@example.com",
+      "password": "123456"
+    }
+  ]
+}
